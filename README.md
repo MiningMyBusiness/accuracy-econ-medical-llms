@@ -6,13 +6,13 @@ This repository contains code and experiments for studying the relationship betw
 
 This project investigates how different reasoning strategies and token budgets affect the accuracy of language models on medical question-answering benchmarks. The research explores various prompting techniques including:
 
-- **B0**: Direct answer (no reasoning)
-- **B1**: Standard Chain-of-Thought (CoT)
+- **B0/P0**: Direct answer (no reasoning)
+- **B1/P1**: Standard Chain-of-Thought (CoT)
 - **B2**: Short-CoT with token caps
-- **B3**: Self-Consistency (k=5 samples with majority voting)
+- **B3/P2**: Self-Consistency (k=5 samples with majority voting)
 - **B4**: Reflection-based reasoning (two-pass)
 - **B5**: RAG-only (extractive from context)
-- **B6**: Iterative CoT (multi-pass reasoning until word count threshold)
+- **B6/PCCR**: Iterative CoT (multi-pass reasoning until word count threshold)
 
 ## Key Components
 
