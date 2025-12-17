@@ -1,0 +1,54 @@
+{
+  "overall": {
+    "total_questions": 7200,
+    "correct_questions": 4320,
+    "incorrect_questions": 2880,
+    "accuracy": 0.6
+  },
+  "correct_answers": {
+    "mean_unique_count": 2.2530092592592594,
+    "median_unique_count": 2.0,
+    "std_unique_count": 0.7672475982165862,
+    "unique_count_distribution": {
+      "2": 2101,
+      "3": 1356,
+      "1": 663,
+      "4": 200
+    }
+  },
+  "incorrect_answers": {
+    "mean_unique_count": 2.9055555555555554,
+    "median_unique_count": 3.0,
+    "std_unique_count": 0.6483771150583613,
+    "unique_count_distribution": {
+      "3": 1707,
+      "2": 691,
+      "4": 461,
+      "1": 21
+    }
+  },
+  "statistical_tests": {
+    "t_test": {
+      "statistic": -37.567563573580784,
+      "p_value": 3.2951750450309662e-282,
+      "significant": true,
+      "interpretation": "Significant difference"
+    },
+    "mann_whitney_u": {
+      "statistic": 3429696.0,
+      "p_value": 6.811906303173786e-265,
+      "significant": true,
+      "interpretation": "Significant difference"
+    },
+    "cohens_d": {
+      "effect_size": 0.9037351225835518,
+      "interpretation": "Large effect"
+    },
+    "kolmogorov_smirnov": {
+      "statistic": 0.3925925925925926,
+      "p_value": 3.060652510529455e-238,
+      "significant": true,
+      "interpretation": "Distributions differ significantly"
+    }
+  }
+}

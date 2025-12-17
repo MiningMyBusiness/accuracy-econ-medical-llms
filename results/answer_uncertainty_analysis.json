@@ -1,0 +1,30 @@
+{
+  "overall": {
+    "total_questions": 10000,
+    "correct_questions": 6000,
+    "incorrect_questions": 4000,
+    "accuracy": 0.6
+  },
+  "correct_answers": {
+    "mean_unique_count": 2.2306666666666666,
+    "median_unique_count": 2.0,
+    "std_unique_count": 0.765217059672368,
+    "unique_count_distribution": {
+      "2": 2855,
+      "3": 1921,
+      "1": 995,
+      "4": 229
+    }
+  },
+  "incorrect_answers": {
+    "mean_unique_count": 2.907,
+    "median_unique_count": 3.0,
+    "std_unique_count": 0.6495817801649617,
+    "unique_count_distribution": {
+      "3": 2365,
+      "2": 960,
+      "4": 646,
+      "1": 29
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "run_id": "0b6eb57d",
+  "model_name": "amsaravi/medgemma-4b-it:q6",
+  "baseline_style": "B1",
+  "output_suffix": "amsaravi_medgemma-4b-it_q6_B1_20250910_145238_0b6eb57d",
+  "llm_type": "ollama",
+  "benchmark_json": "/open-surgical-dataset-extractor/mirage_dataset_tests/benchmark.json",
+  "timestamp": "2025-09-10T14:56:21.652968",
+  "max_questions": null,
+  "token_cap": 100,
+  "context": null,
+  "self_consistency_k": 5
+}

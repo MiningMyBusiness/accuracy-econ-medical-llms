@@ -1,0 +1,15 @@
+{
+  "run_id": "20250902_182540_20b85724",
+  "model_name": "gemma3:270m",
+  "baseline_style": "B0",
+  "output_suffix": "gemma3_270m_B0_20250902_182540_20b85724",
+  "llm_type": "ollama",
+  "benchmark_json": "/open-surgical-dataset-extractor/mirage_dataset_tests/benchmark.json",
+  "timestamp": "2025-09-02T18:25:40.195007",
+  "max_questions": null,
+  "token_cap": 100,
+  "context": null,
+  "self_consistency_k": 5,
+  "status": "completed",
+  "completed_at": "2025-09-02T18:43:41.357356"
+}
